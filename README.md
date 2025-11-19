@@ -2,10 +2,12 @@
 
 ## Project Overview
 This project will focus on the correlation between the widespreading usage of social media and increasing consuming desires categorized by the age groups. Main aim is to find if social media influences people to buy and consume more. By analyzing datas on how much time people spend online and how often do they buy things, it is expected to find a correlation between these parameters within this project outcomes. 
+
 The analysis will rely on statistical methods and visualization techniques to examine correlation strength, variation across age groups, and potential nonlinear patterns. The project will finally decide whether social media acts as a meaningful predictor of consumption habits or whether the relationship is weaker or more complex than commonly assumed.
 
 ## Hypothesis
 Null Hypothesis: There is no correlation between the screen time and consuming behaviours of people.
+
 Alternative hypothesis: Increasing screen time has a positive correlation with consumerism meaning that there is a significant correlation between each parameter.
 
 ## Motivation
