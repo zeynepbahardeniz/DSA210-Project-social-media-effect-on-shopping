@@ -8,8 +8,7 @@ The analysis will rely on statistical methods and visualization techniques to ex
 ## Hypothesis
 Null Hypothesis: There is not a significant relation between screen time and consuming behaviours.
 
-Alternative Hypothesis 1: Increasing screen time will indicate an increase in consumerism meaning that there is a strong positive correlation.
-Alternative hypothesis 2: Change in most frequently used platforms across regions has a relation with the consumerism towards trends.
+Alternative Hypothesis : Increasing screen time will indicate an increase in consumerism meaning that there is a strong positive correlation.
 
 ## Motivation
 Social media has evolved into one of the most influential environments in modern life. It creates trend and turns them into cycles of consumption. I believe that the constant exposure to these trends evolves into a strong link between online engagement and consumer behavior as far as I inspected in day to day life. My main motivation is to understand if constant exposure to social media alters consumption habits and which groups are affected by this exposure the most.
