@@ -61,7 +61,7 @@ The first dataset found from Kaggle is the important dataset for the screen time
 First I get the dataset I found from Kaggle in csv format. Then I choose between the columns the ones I need for my analysis. I apply cleaning steps for this data to handle any missing values or unrelated outcomes. Lastly I keep the cleaned data in another csv to use it for my further analysis. Next step, I install pytrends to reach the data I need from Google Trends. In this step I get the searched word's interest rate for each country in my cleaned csv. I do the cleaning by deleting the countries that have no data on that word. Later, I found the interquiartile ranges and detected any outliers. 
 
 The EDA phase mainly focused on:
-- Removing invalid values (e.g., screen time > 24 hours)
+- Removing invalid values
 - Handling missing datas
 - Detecting and removing outliers using interquartile range (IQR)
 - Visualizing distributions and relationships between variables
