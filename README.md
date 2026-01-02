@@ -16,15 +16,15 @@ My motivation is to move beyond the intuition and use real data to test whether 
 
 ## Research Question and Hypothesis
 
-**Research Question**
+**Research Question:**
 
 Does increased social media usage lead to higher consumer interest in online shopping?
 
-**Null Hypothesis** 
+**Null Hypothesis:** 
 
 There is not a significant relationship between daily social media usage and consumer behaviour in online shopping.
 
-**Alternative Hypothesis** 
+**Alternative Hypothesis:** 
 
 Increasing social media usage indicates an increase in consumer interest in online shopping and consumerism.
 
@@ -61,7 +61,6 @@ The first dataset found from Kaggle is the important dataset for the screen time
 First I get the dataset I found from Kaggle in csv format. Then I choose between the columns the ones I need for my analysis. I apply cleaning steps for this data to handle any missing values or unrelated outcomes. Lastly I keep the cleaned data in another csv to use it for my further analysis. Next step, I install pytrends to reach the data I need from Google Trends. In this step I get the searched word's interest rate for each country in my cleaned csv. I do the cleaning by deleting the countries that have no data on that word. Later, I found the interquiartile ranges and detected any outliers. 
 
 The EDA phase mainly focused on:
-
 - Removing invalid values (e.g., screen time > 24 hours)
 - Handling missing datas
 - Detecting and removing outliers using interquartile range (IQR)
@@ -72,6 +71,7 @@ During this step, the initial scatter plots and correlation checks showed a weak
 ## Methodology
 
 **1.Hypothesis Testing**
+
 I used correlation analysis to test the relationship between:
 - Average daily social media usage
 - Average Google search interest
@@ -79,6 +79,7 @@ I used correlation analysis to test the relationship between:
 Results did not provide strong statistical evidence to reject the null hypothesis. So the results indicate that there is not a significant relationship between daily social media usage and consumer behaviour in online shopping.
 
 **2.Regression Models**
+
 I used and tested the regression models below to predict average search interest:
 - Linear Regression
 - Polynomial Regression
@@ -88,6 +89,7 @@ I used and tested the regression models below to predict average search interest
 I used Root Mean Squared Error (RMSE) and R² score to evaluate the tested models. Across all regression models, R² was consistenly negative showing that none of these models performed better than predicting the mean search interest.
 
 **3.Feature Engineering**
+
 After evaluating the regression models I tried additional features to improve model performance. The features I added:
 - Mean age per country
 - Gender distribution
