@@ -106,6 +106,10 @@ Despite the features I added, the regression still performed weakly indicating t
 ## Conclusion and Limitations
 I aimed to demonstrate that while the social media usage is often associated  with driven consumer behaviours, in fact, screen time is not a sufficient parameter to correctly predict consumer interest alone. Consumer behaviour appears to be affected by a more complex combination of factors that are not fully available and captured in my datasets. Still the findings on weak relation is important to furtherly challenge this common assumption and highlighting the limitations.
 
+**AI Assistance Disclosure:** 
+During this project, Generative AI tools were used to support developing visualizations for the results, for supporting code structures and explore alternative approaches.
+
+
 
 
 
